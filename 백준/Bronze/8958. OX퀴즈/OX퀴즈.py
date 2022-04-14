@@ -4,8 +4,8 @@ resArr = []
 
 for i in range(0, a):
   s = input()
-  sumRes = 0 1 3 4 5 7 
-  sameCnt = 0 1 2 0 1 2 
+  sumRes = 0 
+  sameCnt = 0
   for j in s:
     if j == "O":      
       if sameCnt != 0:
